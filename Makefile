@@ -1,19 +1,19 @@
-NAME = libftprintf.a
+NAME 		= 	libftprintf.a
 
-RM = rm -f
-CC = cc
-CFLAGS = -Wall -Wextra -Werror
-AR		= ar
-ARFLAGS = -rcs
-INCFLAG	= -I .
+RM 			= 	rm -f
+CC 			= 	cc
+CFLAGS 		= 	-Wall -Wextra -Werror
+AR			= 	ar
+ARFLAGS 	= 	-rcs
+INCFLAG		= 	-I .
 
-MANDO = ft_printf.c \
-		ft_print_unsigned.c \
-		ft_print_str.c \
-		ft_print_ptr.c \
-		ft_print_percent.c \
-		ft_print_nbr.c \
-		ft_print_hex.c 
+MANDO 		= 	ft_printf.c \
+				ft_print_unsigned.c \
+				ft_print_str.c \
+				ft_print_ptr.c \
+				ft_print_percent.c \
+				ft_print_nbr.c \
+				ft_print_hex.c 
 
 MANDOOBJ	= $(MANDO:.c=.o)
 
